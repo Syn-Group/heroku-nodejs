@@ -1,6 +1,8 @@
 const express = require('express')
 const path = require('path')
+
 const Router = require('./routers/router');
+const Handler = require('./errors/handler');
 
 const App = express();
 
@@ -14,8 +16,6 @@ App.set('view engine', 'ejs');
 
 App.use('/', Router);
 
-App.use('/', async (request, response) => {
-  response.send('ERRO 404')
-});
+App.use('/', Handler['not-found']);
 
 module.exports = App;
