@@ -37,7 +37,7 @@ Após isso, é preciso navegar até o repositório onde o template foi baixado.
 ## Instalando o template
 Para instalar o template é simples, como em qualquer outra aplicação NodeJS.
 
-A primeira coisa a ser feita é instalar todas as dependências da aplicação,a lista dessas dependências ficam armazenadas no arquivo [package.json](https://github.com/Syn-Group/heroku-nodejs/blob/main/package.json)
+A primeira coisa a ser feita é instalar todas as dependências da aplicação. A lista dessas dependências ficam armazenadas no arquivo [package.json](https://github.com/Syn-Group/heroku-nodejs/blob/main/package.json)
 
 Na pasta onde o repositório foi clonado, você irá executar o seguinte comando:
 
